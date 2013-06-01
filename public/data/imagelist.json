@@ -1,0 +1,50 @@
+[
+    {
+        "imagesource": "./app/img/LeylandCypress.png",
+        "thumbsource": "./app/img/LeylandCypress_thumb.png",
+        "title": "Lelyland Cyprus",
+        "description": "One of the varieties of shrub that we use."
+    },
+    {
+        "imagesource": "./app/img/Allium.png",
+        "thumbsource": "./app/img/Allium_thumb.png",
+        "title": "Allium in Bloom",
+        "description": "An allium that we used for one of our landscapes."
+    },
+    {
+        "imagesource": "./app/img/Iris.png",
+        "thumbsource": "./app/img/Iris_thumb.png",
+        "title": "Purple Iris",
+        "description": "A purple iris used in a ringed garden. We have access to many different types of iris."
+    },
+    {
+        "imagesource": "./app/img/GrapeArbor1.png",
+        "thumbsource": "./app/img/GrapeArbor1_thumb.png",
+        "title": "Starting a Grape Arbor",
+        "description": "Digging post holes for a grape arbor we are putting in for a customer."
+    },
+    {
+        "imagesource": "./app/img/TreeWork1.png",
+        "thumbsource": "./app/img/TreeWork1_thumb.png",
+        "title": "Tree Removal",
+        "description": "Tree removal work that we did for a customer."
+    },
+    {
+        "imagesource": "./app/img/TreeWork2.png",
+        "thumbsource": "./app/img/TreeWork2_thumb.png",
+        "title": "Tree Removal",
+        "description": "Tree removal work that we did for a customer."
+    },
+    {
+        "imagesource": "./app/img/RusticSeating.png",
+        "thumbsource": "./app/img/RusticSeating_thumb.png",
+        "title": "Rustic Seating",
+        "description": "A rustic seating area built under a maple tree."
+    },
+    {
+        "imagesource": "./app/img/AHelper.png",
+        "thumbsource": "./app/img/AHelper_thumb.png",
+        "title": "Our Helper",
+        "description": "Our helper getting ready to do some work."
+    }
+]

@@ -1,16 +1,112 @@
-<html ng-app>
+
+<!DOCTYPE html>
+<html lang="en" >
 <head>
+    <meta charset="utf-8">
+    <title>Xterrior Xpressions by Averil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the web home of Xterior Xpressions by Averil, a full service, family owned, landscaping and lawn service company servicing Carlisle Pennyslvania and surrounding areas.">
+    <meta name="keywords" content="landscape, hardscape, planting, lawn care, lawn care, maintenance, water features, weed control, fertilization, mulch, design, tree care, tree removal, snow removal, Carlisle, Mechanicsburg, Shippensburg, Camp Hill, Lemoyne, Enola, Dillsburg, Lake Meade, exterior, expressions, xterior, xpressions">
 
+    <!-- Le styles -->
+    <link href="theme/css/bootstrap.css" rel="stylesheet">
+    <link href="theme/css/app.css" rel="stylesheet">
+    <link href="theme/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+    <style>
+        body {
+            padding-top: 0px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="theme/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
 </head>
-<body>
-<h1>HTML Home Page!</h1>
-{{ 4 + 4 }}
-</body>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
-<script src='js/app.js' ></script>
-<script src='js/services.js' ></script>
-<script src='js/controllers.js' ></script>
-<script src='js/filters.js' ></script>
-<script src='js/directives.js' ></script>
 
+<body ng-app="myApp">
+
+<img src="theme/img/leaf-bgrd.jpg" class="bg">
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#"><div id="logo"></div></a>
+
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li nav-link="/home"><a href="#/home">Home</a></li>
+                    <li nav-link="/about"><a href="#/about">About</a></li>
+                    <li nav-link="/services"><a href="#/services">Services</a></li>
+                    <li nav-link="/gallery"><a href="#/gallery">Gallery</a></li>
+                    <li nav-link="/contact"><a href="#/contact">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+<div class="container main">
+    <!-- ##############################  View ###############################-->
+    <div ng-view></div>
+
+</div><!-- /container -->
+
+
+<div class="container footer">
+    <div style="text-align: center;">
+        <ul style="display:inline; list-style: none;">
+
+            <li style="display:inline; margin-left:15px;"><a href="./app/partials/sitemap.xml">Site Map</a></li>
+            <li style="display:inline; margin-left:15px;"><a href="#/legal">Legal</a></li>
+            <li style="display:inline; margin-left:15px;">&copy; FatSatellite 2013</li>
+            <li style="display:inline; margin-left:45px;"><img src="theme/img/facebook.png"></li>
+            <li style="display:inline; margin-left:15px;"><img src="theme/img/google.png"></li>
+            <li style="display:inline; margin-left:15px;"><img src="theme/img/twitter.png"></li>
+
+
+        </ul>
+    </div>
+
+</div><!-- /footer -->
+
+
+
+
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/galleriffic/jquery.galleriffic.js"></script>
+<script src="lib/galleriffic/jquery.opacityrollover.js"></script>
+<script src="lib/jquery.cycle/jquery.cycle.all.latest.js"></script>
+
+
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script src="js/util.js"></script>
+
+
+</body>
 </html>
+
+
